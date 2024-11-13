@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+    top: 0px;
+    background-color: transparent;
+    width: 100%;
+    padding: 10px 0;
+    font-weight: 500;
+}
+.nav-wrapper {
+  list-style: none;
+  display: flex;
+}
+
+.nav-wrapper li a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #e70004;
+  font-size: 19px;
+  text-align: center;
+  position: relative;
+  font-weight: bolder;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+.nav-wrapper a:hover{
+  background-color: grey;
+  color: #e70004;
+  border-radius: 30px;
+  padding: 5px 20px;
+  transition: 0.3s ease-in;
+
+}
+
+.brand h1 {
+    font-size: 35px;
+    color: rgba(6, 6, 136, 0.993);
+    position: relative;
+    cursor: pointer;
+    right: 160px;
+}
+
+.brand h1 span {
+    color: #e70004;
+    transition: transform 0.3s ease;
+}
+
+.brand h1:hover {
+  transform: scale(1.05);
+}
+
+#check{
+    display: none;
+}
+
+.open, .close{
+    display: none;
+}
+
+
+
