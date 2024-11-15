@@ -256,7 +256,7 @@ body{
   .intr0{
     position: relative;
     left: 0;
-    right: 10px;
+    right: 30px;
   }
 
   .intro-container h1{
@@ -295,7 +295,7 @@ body{
 
   .intro-container button{
     padding: 10px 20px;
-    margin-left: 100px;
+    margin-left: 80px;
   }
 
   
