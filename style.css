@@ -174,6 +174,7 @@ body{
   display: none;
 }
 
+
 .open {
   top: 50%;
   right: 20px;
@@ -194,9 +195,9 @@ body{
     height: 100vh;
     position: fixed;
     top: 0;
-    right: -100%;
+    left: -100%;
     z-index: 100;
-    background-color: #574f4f;
+    background-color: white;
     opacity: 80%;
     transition: all 0.5s ease-in-out;
   }
@@ -215,7 +216,7 @@ body{
     padding: 10px;
     text-align: center;
     margin-left: 70px;
-    color: white;
+    color: rgb(218, 11, 11);
     font-size: 18px;
     text-transform: uppercase;
   }
@@ -227,6 +228,10 @@ body{
 
   .open {
     left: 10px;
+  }
+
+  .close{
+    color: white;
   }
 
   .open:hover {
@@ -241,7 +246,7 @@ body{
     transition: all 0.3s ease-in-out;
   }
   #check:checked ~ .nav-wrapper {
-    right: 0;
+    left: 0;
   }
 
   /* .intro-container{
