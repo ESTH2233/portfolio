@@ -253,10 +253,11 @@ body{
     margin-left: 70px;
   }
 
-  .intr0{
+  .intro{
     position: relative;
-    left: 0;
-    right: 30px;
+    padding-left: 10px;
+    padding-right: 70px;
+    
   }
 
   .intro-container h1{
@@ -294,8 +295,9 @@ body{
   }
 
   .intro-container button{
-    padding: 10px 20px;
-    margin-left: 80px;
+    padding: 10px 30px;
+    margin-left: 70px;
+    align-items: center;
   }
 
   
