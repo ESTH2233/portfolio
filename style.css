@@ -256,7 +256,7 @@ body{
   .intro{
     position: relative;
     padding-left: 10px;
-    padding-right: 70px;
+    padding-right: 50px;
     
   }
 
@@ -280,6 +280,7 @@ body{
 
   .intro-container p span{
     top: 94px;
+    font-size: 14px;
     position: absolute;
   }
 
