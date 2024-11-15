@@ -243,10 +243,10 @@ body{
     right: 0;
   }
 
-  .intro-container{
+  /* .intro-container{
     margin-left: 20px;
-    margin-top: 20px;
-  }
+    margin-top: 10px;
+  } */
 
   .brand h1 {
     font-size: 24px;
@@ -254,12 +254,14 @@ body{
   }
 
   .intro-container h1{
-    font-size: 30px;
+    font-size: 24px;
+    position: absolute;
+    top: 120px;
     margin-left: 0;
   }
 
   .intro-container h3{
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 0;
   }
 
@@ -270,9 +272,14 @@ body{
     width: 100%;
   }
 
+  .intro-container p span{
+    top: 94px;
+    position: absolute;
+  }
+
   .image img{
     width: 100%;
-    height: 300px;
+    height: 250px;
     margin-left: 0;
     position: relative;
     top: 0;
