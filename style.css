@@ -202,7 +202,6 @@ body{
 
 .services-item img{
   width: 50px;
-  background-color: transparent;
   margin-left: -200px;
   position: relative;
   cursor: pointer;
@@ -417,7 +416,7 @@ body{
   }
 
  .services-container .services-intro h1{
-    margin-top: -40px;
+    margin-top: -20px;
   }
 
   
