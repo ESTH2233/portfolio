@@ -352,6 +352,78 @@ body{
   font-size: 16px;
 }
 
+/* footer style */
+
+.footer {
+  background-color: #222;
+  padding: 40px 20px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer h5{
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: rgb(218, 11, 11);
+}
+
+.footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+  .footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.5s ease-in-out;
+  }
+
+  .footer ul li a:hover{
+    color: rgb(218, 11, 11);
+  }
+
+  .social-links li a i{
+    margin-right: 8px;
+    color: #fff;
+  }
+
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: -10px; */
+  }
+
+  .column{
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+
+  .text-center{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .text-center p{
+    font-size: 14px;
+  }
+
 
 
 
@@ -512,6 +584,13 @@ body{
   .contact-info p{
     font-size: 12px;
     width: 160%;
+  }
+
+  .row {
+      flex-direction: column;
+  }
+  .column {
+      margin: 10px 0;
   }
 
 
